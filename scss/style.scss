@@ -1,0 +1,77 @@
+$image : url(http://placehold.it/1500x500);
+$font: verdana;
+$linkColor: black;
+
+body {
+	margin: 0;
+
+	header {
+		background-image:$image;
+		width: 100%;
+		height: 500px;
+
+		.menu {
+			display:flex;
+			flex-direction: row;
+			justify-content:flex-end;
+
+			a {
+				margin: 15px;
+				font-family: $font;
+				color: $linkColor;
+				text-decoration: none;
+			}
+
+			img {
+				margin-right: 815px;
+				border: pink solid 3px;
+				margin-top: 8px;
+				float: left;
+			}
+		}
+	}
+
+	.choice {
+		display: flex;
+		justify-content: center;
+		padding-top: 50px;
+
+		input {
+			padding: 20px;
+			margin-top: 50px;
+		}
+
+		select, button {
+			padding: 20px;
+		}
+		
+		.ou, .desti {
+			border: grey solid 1px;
+			height: 100px;
+
+			#where, #time, h4	{
+				border: none;
+				margin: 0;
+				color: grey;
+			}	
+
+			h4 {
+				padding-top: 10px;
+				padding-left: 20px;
+			}
+		}
+	}
+
+	h3 {
+		padding-left: 230px;
+	}
+
+	.experiences, .logements, .destination, .solidaire, .art{
+		display: flex;
+		justify-content: center;
+
+		img {
+			margin: 10px;
+		}
+	}
+}
