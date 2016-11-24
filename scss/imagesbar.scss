@@ -1,0 +1,14 @@
+h3 {
+	padding-left: 230px;
+	color: $inputTitleColor;
+	font-family: $font;
+}
+
+.experiences, .logements, .destination, .solidaire, .art{
+	display: flex;
+	justify-content: center;
+
+	img {
+		margin: 10px;
+	}
+}

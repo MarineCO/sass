@@ -1,0 +1,76 @@
+.choice {
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	font-family: $font;
+
+	.element.ou {
+		width: 25%;
+	}
+
+	.element.desti {
+		width: 25%;
+
+		#time {
+			width: 110px;
+		}
+	}
+
+
+	.element {
+		border: grey solid 1px;
+		max-height: 85px;
+
+		input {
+			padding: $paddingSearchBarContent;
+			outline: none;
+		}
+
+		.input, .subtitle,  {
+			border: none;
+			color: $inputTitleColor;
+			font-size: 18px;
+		}	
+
+		.subtitle {
+			padding-top: 10px;
+			padding-left: 20px;
+			max-width: 110px;
+			margin: 0;
+		}
+	}
+}
+
+.element.traveler {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.selectTraveler{
+	display: inline-block;
+
+	select {
+		padding: $paddingSearchBarContent;
+		border: none;
+		background-color: white;
+		font-family: $font;
+		color: $inputTitleColor;
+		font-size: 18px;	
+	} 
+}
+
+.searchBtn {
+	display: inline-block;
+
+	button {
+		background-color: $colorButton;
+		padding: $paddingSearchBarContent;
+		color: $linkColor;
+		border-radius: 5px;
+		font-family: $font;
+		font-size: 18px;
+		margin-right: 15px;
+		border: none;
+	}
+}
