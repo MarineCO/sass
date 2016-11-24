@@ -71,12 +71,12 @@ h3 {
     flex-direction: column; }
   .experiences img, .logements img, .destination img, .solidaire img, .art img {
     margin: 0.5em; }
-  .experiences .test, .logements .test, .destination .test, .solidaire .test, .art .test {
+  .experiences .img, .logements .img, .destination .img, .solidaire .img, .art .img {
     margin: 0.5em;
     height: 100%;
-    width: 23vw;
+    width: 16vw;
     height: 47vh;
-    background-image: url(http://placehold.it/250x370); }
+    background-image: url(https://unsplash.it/252/370/?random); }
   .experiences span, .logements span, .destination span, .solidaire span, .art span {
     color: grey;
     font-size: 0.8em;
