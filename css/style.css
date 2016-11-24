@@ -1,29 +1,17 @@
 body {
   margin: 0; }
 
-header {
-  background-image: url(http://placehold.it/1500x500);
-  max-width: 100%;
-  height: 500px; }
-  header .menu {
-    display: block; }
-    header .menu a {
-      margin: 15px;
-      font-family: helvetica;
-      color: white;
-      text-decoration: none;
-      float: right; }
-  header .image {
-    margin: 0; }
-    header .image img {
-      border: pink solid 5px;
-      float: left; }
-
 .choice {
   display: flex;
   justify-content: center;
   padding-top: 50px;
   font-family: helvetica; }
+  .choice .element.ou {
+    width: 25%; }
+  .choice .element.desti {
+    width: 25%; }
+    .choice .element.desti #time {
+      width: 110px; }
   .choice .element {
     border: grey solid 1px;
     max-height: 85px; }
@@ -40,6 +28,11 @@ header {
       max-width: 110px;
       margin: 0; }
 
+.element.traveler {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .selectTraveler {
   display: inline-block; }
   .selectTraveler select {
@@ -53,14 +46,14 @@ header {
 .searchBtn {
   display: inline-block; }
   .searchBtn button {
-    background-color: #ff8d90;
+    background-color: #ff5a5f;
     padding: 14px;
     color: white;
     border-radius: 5px;
     font-family: helvetica;
     font-size: 18px;
-    position: relative;
-    bottom: 15px; }
+    margin-right: 15px;
+    border: none; }
 
 h3 {
   padding-left: 230px;
@@ -72,5 +65,24 @@ h3 {
   justify-content: center; }
   .experiences img, .logements img, .destination img, .solidaire img, .art img {
     margin: 10px; }
+
+header {
+  background-image: url(http://placehold.it/1500x500);
+  max-width: 100%;
+  height: 500px; }
+  header .menu {
+    display: block;
+    float: right;
+    padding-top: 20px; }
+    header .menu a {
+      margin: 15px;
+      font-family: helvetica;
+      color: white;
+      text-decoration: none; }
+  header .image {
+    margin: 0; }
+    header .image img {
+      border: pink solid 5px;
+      float: left; }
 
 /*# sourceMappingURL=style.css.map */

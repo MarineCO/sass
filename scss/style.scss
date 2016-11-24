@@ -1,14 +1,8 @@
-$image : url(http://placehold.it/1500x500);
-$font: helvetica;
-$linkColor: white;
-$inputTitleColor: grey;
-$colorButton: #ff8d90;
-$paddingSearchBarContent: 14px;
+@import 'variables';
+@import 'globales';
+@import 'navbar';
+@import 'imagesbar';
 
-
-body {
-	margin: 0;
-}
 
 header {
 	background-image:$image;
@@ -17,13 +11,14 @@ header {
 
 	.menu {
 		display: block;			
+		float: right;
+		padding-top: 20px;
 
 		a {
 			margin: 15px;
 			font-family: $font;
 			color: $linkColor;
 			text-decoration: none;
-			float: right;
 		}
 	}
 
@@ -37,74 +32,3 @@ header {
 	}
 }
 
-.choice {
-	display: flex;
-	justify-content: center;
-	padding-top: 50px;
-	font-family: $font;
-
-	.element {
-		border: grey solid 1px;
-		max-height: 85px;
-
-		input {
-			padding: $paddingSearchBarContent;
-			outline: none;
-		}
-
-		.input, .subtitle,  {
-			border: none;
-			color: $inputTitleColor;
-			font-size: 18px;
-		}	
-
-		.subtitle {
-			padding-top: 10px;
-			padding-left: 20px;
-			max-width: 110px;
-			margin: 0;
-		}
-	}
-}
-.selectTraveler{
-	display: inline-block;
-
-	select {
-		padding: $paddingSearchBarContent;
-		border: none;
-		background-color: white;
-		font-family: $font;
-		color: $inputTitleColor;
-		font-size: 18px;	
-	} 
-}
-
-.searchBtn {
-	display: inline-block;
-
-	button {
-		background-color: $colorButton;
-		padding: $paddingSearchBarContent;
-		color: $linkColor;
-		border-radius: 5px;
-		font-family: $font;
-		font-size: 18px;
-		position: relative;
-		bottom: 15px;
-	}
-}
-
-h3 {
-	padding-left: 230px;
-	color: $inputTitleColor;
-	font-family: $font;
-}
-
-.experiences, .logements, .destination, .solidaire, .art{
-	display: flex;
-	justify-content: center;
-
-	img {
-		margin: 10px;
-	}
-}
