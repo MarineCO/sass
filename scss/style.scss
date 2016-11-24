@@ -2,20 +2,23 @@
 @import 'globales';
 @import 'navbar';
 @import 'imagesbar';
+@import 'footer';
 
 
 header {
 	background-image:$image;
 	max-width: 100%;
-	height: 500px;
+	height: 27em;
 
 	.menu {
 		display: block;			
 		float: right;
-		padding-top: 20px;
+		padding-top: 1em;
 
 		a {
-			margin: 15px;
+			margin: 0.75em;
+			padding: 1em;
+			font-size: 0.7em;
 			font-family: $font;
 			color: $linkColor;
 			text-decoration: none;
@@ -26,7 +29,7 @@ header {
 		margin: 0;
 
 		img {
-			border: pink solid 5px;
+			border: pink solid 0.25em;
 			float: left;
 		}
 	}
