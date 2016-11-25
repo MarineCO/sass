@@ -65,22 +65,27 @@ h3 {
 .experiences, .logements, .destination, .solidaire, .art {
   display: flex;
   justify-content: center;
-  margin-bottom: 4em; }
+  margin-bottom: 4em;
+  width: 110vw; }
   .experiences .position, .logements .position, .destination .position, .solidaire .position, .art .position {
     display: flex;
     flex-direction: column; }
   .experiences img, .logements img, .destination img, .solidaire img, .art img {
     margin: 0.5em; }
-  .experiences .img, .logements .img, .destination .img, .solidaire .img, .art .img {
-    margin: 0.5em;
-    height: 100%;
-    width: 16vw;
-    height: 47vh;
-    background-image: url(https://unsplash.it/252/370/?random); }
   .experiences span, .logements span, .destination span, .solidaire span, .art span {
     color: grey;
     font-size: 0.8em;
     padding-left: 0.6em; }
+
+.experiences .position h4 {
+  text-align: center;
+  color: #ff5a5f;
+  font-size: 2em; }
+.experiences .position .img {
+  margin: 0.5em;
+  width: 25vw;
+  height: 47vh;
+  background-image: url(http://placehold.it/250x370); }
 
 footer {
   border-top: lightgrey solid 0.01em; }
@@ -106,8 +111,8 @@ footer {
     padding-left: 2.5em; }
 
 header {
-  background-image: url(http://placehold.it/1500x500);
-  max-width: 100%;
+  background-image: url(http://placehold.it/1100x500);
+  width: 110vw;
   height: 27em; }
   header .menu {
     display: block;

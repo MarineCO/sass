@@ -7,7 +7,7 @@
 
 header {
 	background-image:$image;
-	max-width: 100%;
+	width: 110vw;
 	height: 27em;
 
 	.menu {
@@ -24,6 +24,7 @@ header {
 			text-decoration: none;
 		}
 	}
+
 
 	.image {
 		margin: 0;

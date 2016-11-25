@@ -10,6 +10,7 @@ h3 {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 4em;
+	width: 110vw;
 
 	.position {
 		display: flex;
@@ -20,17 +21,24 @@ h3 {
 		margin: 0.5em;
 	}
 
-	.img {
-		margin: 0.5em;
-		height: 100%;
-		width: 16vw;
-		height: 47vh;
-		background-image: url(https://unsplash.it/252/370/?random)
-	}
 
 	span {
 		color: $inputTitleColor;
 		font-size: 0.8em;
 		padding-left: 0.6em;
+	}
+}
+
+.experiences .position {
+	h4 {
+		text-align: center;
+		color:$colorButton;
+		font-size: 2em;
+	}
+	.img {
+		margin: 0.5em;
+		width: 25vw;
+		height: 47vh;
+		background-image: url(http://placehold.it/250x370);
 	}
 }
