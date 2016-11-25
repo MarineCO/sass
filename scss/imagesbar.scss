@@ -10,7 +10,6 @@ h3 {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 4em;
-	width: 110vw;
 
 	.position {
 		display: flex;
@@ -29,17 +28,4 @@ h3 {
 	}
 }
 
-.experiences .position {
-	h4 {
-		text-align: center;
-		color:$colorButton;
-		font-size: 2em;
-	}
-	.img {
-		margin: 0.5em;
-		width: 25vw;
-		height: 47vh;
-		background-image: url(http://placehold.it/250x370);
-	}
-}
 
